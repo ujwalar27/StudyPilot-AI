@@ -1,22 +1,22 @@
- **🚀StudyPilot AI
+# 🚀 StudyPilot AI
 
- AI-Powered Personalized Learning Planner**
+## AI-Powered Personalized Learning Planner
 
 StudyPilot AI is a personalized learning platform that helps users turn their learning goals into structured and achievable study plans.
 
-Users provide their learning goal, current skill level, target deadline, and available study time. The application then generates a personalized learning roadmap and allows users to track tasks, monitor progress, manage multiple learning plans, and view learning insights.
+Users provide their learning goal, current skill level, target deadline, and available study time. The application generates a personalized learning roadmap and allows users to track tasks, monitor progress, manage multiple learning plans, and view learning insights.
 
+---
 
-
-**🎯 Problem Statement**
+## 🎯 Problem Statement
 
 Many learners know what they want to learn but struggle to create a realistic learning schedule and consistently track their progress.
 
 StudyPilot AI addresses this problem by combining AI-powered study-plan generation with task tracking, progress monitoring, gamification, and learning analytics in one application.
 
+---
 
-
-**💡 Solution**
+## 💡 Solution
 
 StudyPilot AI transforms a learning goal into a structured learning journey.
 
@@ -25,15 +25,17 @@ The application:
 1. Collects the learner's goal and preferences.
 2. Generates a personalized study plan using AI.
 3. Organizes the plan into milestones and daily tasks.
-4. Allows learners to mark tasks as completed.
+4. Allows learners to mark individual tasks as completed.
 5. Calculates course progress automatically.
 6. Supports multiple study plans.
 7. Provides learning analytics and insights.
 8. Uses gamification elements such as XP and streaks to encourage consistency.
 
- **✨ Key Features
+---
 
- 🤖 AI-Powered Study Planning**
+## ✨ Key Features
+
+### 🤖 AI-Powered Study Planning
 
 Generates personalized learning plans based on:
 
@@ -42,36 +44,36 @@ Generates personalized learning plans based on:
 - Target deadline
 - Available daily study time
 
-** 🗺️ Personalized Learning Roadmap**
+### 🗺️ Personalized Learning Roadmap
 
-Breaks the learning journey into structured milestones and actionable tasks.
+Breaks the learning journey into structured milestones and actionable daily tasks.
 
- **📚 Multiple Study Plans**
+### 📚 Multiple Study Plans
 
-Users can create and manage multiple learning plans instead of being limited to a single course.
+Users can create and manage multiple learning plans instead of being limited to a single learning journey.
 
-** ✅ Task-Level Progress Tracking**
+### ✅ Task-Level Progress Tracking
 
 Users can mark individual tasks as completed and monitor their progress throughout the course.
-**
- 📊 Learning Progress**
 
-Course progress is calculated from completed tasks and displayed through visual progress indicators.
+### 📊 Learning Progress
 
- **🎮 Gamification**
+Course progress is automatically calculated from completed tasks and displayed through visual progress indicators.
 
-The application includes:
+### 🎮 Gamification
+
+The application uses gamification elements such as:
 
 - XP
 - Learning streaks
 - Progress milestones
 - Achievements
 
-to make learning more engaging.
+These features are designed to encourage consistency and make learning more engaging.
 
- 📈** Learning Insights**
+### 📈 Learning Insights
 
-The analytics section provides metrics such as:
+The analytics section provides learning metrics such as:
 
 - Plans created
 - Tasks completed
@@ -80,8 +82,8 @@ The analytics section provides metrics such as:
 - Total XP
 - Most active subject
 - Learning activity
-**
- 🧭 User-Friendly Navigation**
+
+### 🧭 User-Friendly Navigation
 
 The application provides clear navigation between:
 
@@ -90,13 +92,11 @@ The application provides clear navigation between:
 - Current Plans
 - Insights
 
- **📱 Responsive Interface**
+### 📱 Responsive Interface
 
-The UI is designed to work across desktop and smaller screen sizes.
+The interface is designed to provide a consistent experience across desktop and smaller screen sizes.
 
-
-
- 🔄 How StudyPilot AI Works
+---
 
 ## 🔄 How StudyPilot AI Works
 
@@ -120,83 +120,3 @@ Progress is automatically updated
 XP and streaks are tracked
           ↓
 Learning insights are generated
-XP and streaks are tracked
-          ↓
-Learning insights are generated
-                                ```
----
-
-
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React
-- TypeScript
-- Vite
-- CSS
-
-### Backend
-- Node.js
-- Express.js
-
-### AI
-- Google Gemini API
-- Prompt Engineering
-- Structured JSON AI Responses
-
-### Database & Authentication
-- Firebase
-- Firestore
-
-### Development & Deployment
-- Git & GitHub
-- Render
-- LocalStorage
-- REST API
-
----
-
-## 🏗️ Product Architecture
-
-```text
-                    ┌──────────────────────┐
-                    │       User           │
-                    │ Learning Preferences │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   React Frontend     │
-                    │   TypeScript + Vite  │
-                    └──────────┬───────────┘
-                               │
-                         REST API Request
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   Node.js + Express  │
-                    │      Backend         │
-                    └──────────┬───────────┘
-                               │
-                         AI Generation
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │    Google Gemini     │
-                    │      AI Model        │
-                    └──────────┬───────────┘
-                               │
-                       Structured Plan
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   StudyPilot AI      │
-                    │ Learning Roadmap     │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Progress & Insights  │
-                    │ XP • Tasks • Analytics│
-                    └──────────────────────┘
