@@ -310,7 +310,6 @@ npm run build
 
 ---
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
