@@ -123,3 +123,78 @@ Learning insights are generated
 XP and streaks are tracked
           ↓
 Learning insights are generated
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### AI
+- Google Gemini API
+- Prompt Engineering
+- Structured JSON AI Responses
+
+### Database & Authentication
+- Firebase
+- Firestore
+
+### Development & Deployment
+- Git & GitHub
+- Render
+- LocalStorage
+- REST API
+
+---
+
+## 🏗️ Product Architecture
+
+```text
+                    ┌──────────────────────┐
+                    │       User           │
+                    │ Learning Preferences │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   React Frontend     │
+                    │   TypeScript + Vite  │
+                    └──────────┬───────────┘
+                               │
+                         REST API Request
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   Node.js + Express  │
+                    │      Backend         │
+                    └──────────┬───────────┘
+                               │
+                         AI Generation
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    Google Gemini     │
+                    │      AI Model        │
+                    └──────────┬───────────┘
+                               │
+                       Structured Plan
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   StudyPilot AI      │
+                    │ Learning Roadmap     │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Progress & Insights  │
+                    │ XP • Tasks • Analytics│
+                    └──────────────────────┘
