@@ -274,7 +274,7 @@ npm install
 
 Create a .env file in the app directory:
 
-GEMINI_API_KEY=your_gemini_api_key
+GEMINI_API_KEY=*****
 VITE_API_URL=http://localhost:5000
 
 Do not commit your .env file or expose your API key publicly.
