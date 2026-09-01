@@ -6,15 +6,20 @@ import { GoogleGenAI, Type } from "@google/genai";
 dotenv.config();
 
 const app = express();
-const PORT = 5000;
 
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-  })
-);
+const PORT = process.env.PORT || 5000;
+
+/* =========================================
+   MIDDLEWARE
+========================================= */
+
+app.use(cors());
 
 app.use(express.json());
+
+/* =========================================
+   GEMINI CONFIGURATION
+========================================= */
 
 const apiKey = process.env.GEMINI_API_KEY;
 
@@ -22,6 +27,7 @@ if (!apiKey) {
   console.error(
     "ERROR: GEMINI_API_KEY is missing from .env"
   );
+
   process.exit(1);
 }
 
@@ -41,7 +47,7 @@ app.get("/api/health", (req, res) => {
 });
 
 /* =========================================
-   WAIT
+   WAIT HELPER
 ========================================= */
 
 const wait = (ms) =>
@@ -449,6 +455,7 @@ Return only the requested JSON structure.
         success: true,
         plan: plan,
       });
+
     } catch (error) {
       console.error(
         "Study plan generation error:"
@@ -471,8 +478,12 @@ Return only the requested JSON structure.
    START SERVER
 ========================================= */
 
-app.listen(PORT, () => {
-  console.log(
-    `StudyPilot AI server running at http://localhost:${PORT}`
-  );
-});
+app.listen(
+  PORT,
+  "0.0.0.0",
+  () => {
+    console.log(
+      `StudyPilot AI server running on port ${PORT}`
+    );
+  }
+);

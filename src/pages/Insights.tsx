@@ -62,6 +62,7 @@ function getPlanTasks(plan: StudyPlan): Task[] {
     If the plan already stores tasks directly,
     use those tasks exactly as they are.
   */
+
   if (Array.isArray(plan.tasks)) {
     return plan.tasks;
   }
@@ -73,6 +74,7 @@ function getPlanTasks(plan: StudyPlan): Task[] {
     This is important because the Dashboard's
     completion ID uses task.day.
   */
+
   if (Array.isArray(plan.days)) {
     return plan.days.flatMap((day) =>
       Array.isArray(day.tasks)
@@ -114,7 +116,6 @@ function getCompletedTaskIds(plan: StudyPlan): string[] {
 
 /* =========================================================
    TASK ID
-   =========================================================
 
    IMPORTANT:
    This must match the ID used by Dashboard
@@ -159,26 +160,6 @@ function getCompletedCount(
 }
 
 /* =========================================================
-   PLAN PROGRESS
-   ========================================================= */
-
-function getPlanProgress(
-  plan: StudyPlan
-): number {
-  const tasks = getPlanTasks(plan);
-
-  if (tasks.length === 0) {
-    return 0;
-  }
-
-  const completed = getCompletedCount(plan);
-
-  return Math.round(
-    (completed / tasks.length) * 100
-  );
-}
-
-/* =========================================================
    INSIGHTS
    ========================================================= */
 
@@ -203,6 +184,7 @@ function Insights() {
       This helps when a user completes a task on Dashboard
       and then comes back to Insights.
     */
+
     window.addEventListener(
       "focus",
       loadPlans
@@ -273,14 +255,8 @@ function Insights() {
     /*
       Average progress is the average of each
       individual plan's progress.
-
-      Example:
-      Python 9%
-      SQL 0%
-      SQL 0%
-
-      Average = 3%
     */
+
     const averageProgress =
       planStats.length > 0
         ? Math.round(
@@ -297,6 +273,7 @@ function Insights() {
       First prioritize completed tasks.
       If tied, prioritize progress percentage.
     */
+
     const strongestPlan =
       planStats.length > 0
         ? [...planStats].sort(
