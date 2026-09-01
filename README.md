@@ -318,13 +318,13 @@ StudyPilot-AI/
 
 Potential future improvements include:
 
--Calendar integration
--Study reminders and notifications
--Adaptive study plans based on learner performance
--Personalized AI recommendations
--More advanced learning analytics
--Expanded achievement and badge system
--Cross-device learning synchronization
+- Calendar integration
+- Study reminders and notifications
+- Adaptive study plans based on learner performance
+- Personalized AI recommendations
+- More advanced learning analytics
+- Expanded achievement and badge system
+- Cross-device learning synchronization
 
 ## 👩‍💻 Author
 Ujwala R
