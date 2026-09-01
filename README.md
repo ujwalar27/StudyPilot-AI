@@ -257,32 +257,60 @@ Convert plan and task activity into simple metrics that help learners understand
 
 StudyPilot AI uses a separate frontend and backend architecture.
 
-The frontend is built with React, TypeScript, and Vite.
-The backend is built with Node.js and Express.js.
-The backend communicates with the Google Gemini API for AI-powered study-plan generation.
-The backend is deployed using Render.
-Environment variables are used to protect API credentials.
+- The frontend is built with React, TypeScript, and Vite.
+- The backend is built with Node.js and Express.js.
+- The backend communicates with the Google Gemini API for AI-powered study-plan generation.
+- The backend is deployed using Render.
+- Environment variables are used to protect API credentials.
+
+---
 
 ## 🧪 Local Development
-1. Clone the repository
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/ujwalar27/StudyPilot-AI.git
-2. Navigate to the application
+```
+
+### 2. Navigate to the application
+
+```bash
 cd StudyPilot-AI/app
-3. Install dependencies
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-4. Configure environment variables
+```
 
-Create a .env file in the app directory:
+### 4. Configure environment variables
 
-GEMINI_API_KEY=*****
+Create a `.env` file in the `app` directory:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
 VITE_API_URL=http://localhost:5000
+```
 
-Do not commit your .env file or expose your API key publicly.
+> **Important:** Never commit your `.env` file or expose your API key publicly.
 
-5. Start the development server
+### 5. Start the development server
+
+```bash
 npm run dev
-6. Build for production
+```
+
+### 6. Build for production
+
+```bash
 npm run build
+```
+
+---
+
+## 📁 Project Structure
 
 ## 📁 Project Structure
 
