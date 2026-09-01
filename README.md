@@ -1,5 +1,16 @@
 # 🚀 StudyPilot AI
 
+
+## 🌐 Live Demo
+
+**Try StudyPilot AI:**  
+https://studypilot-ai-vjx0.onrender.com
+
+**GitHub Repository:**  
+https://github.com/ujwalar27/StudyPilot-AI
+
+> StudyPilot AI is an AI-powered personalized learning planner that converts learning goals into structured study roadmaps, daily tasks, and progress insights.
+
 ## AI-Powered Personalized Learning Planner
 
 StudyPilot AI is a personalized learning platform that helps users turn their learning goals into structured and achievable study plans.
@@ -32,6 +43,20 @@ The application:
 8. Uses gamification elements such as XP and streaks to encourage consistency.
 
 ---
+
+## 📌 Project Highlights
+
+- Built a full-stack AI-powered learning planner from concept to deployment.
+- Developed an interactive React + TypeScript frontend with multiple learning workflows.
+- Built a Node.js + Express REST API for AI-powered study-plan generation.
+- Integrated Google Gemini to generate structured learning roadmaps and daily tasks.
+- Implemented task-level progress tracking, XP, streaks, and learning insights.
+- Designed the application around goal-first onboarding and progress-focused user journeys.
+- Deployed the frontend and backend separately using Render.
+- Used environment variables to separate development and production API configuration.
+
+
+--- 
 
 ## ✨ Key Features
 
@@ -230,7 +255,35 @@ Learning Analytics
 
 Convert plan and task activity into simple metrics that help learners understand their overall progress.
 
+---
 
+## 📊 Product Outcome
+
+StudyPilot AI demonstrates how an ambiguous user problem can be converted into a structured digital product.
+
+The project covers the complete product lifecycle:
+
+```text
+Problem Identification
+        ↓
+User Requirements
+        ↓
+Product Design
+        ↓
+AI Feature Design
+        ↓
+Frontend Development
+        ↓
+Backend & API Integration
+        ↓
+Testing & Iteration
+        ↓
+Cloud Deployment
+        ↓
+Live Product
+
+```          
+---
 
 ##  📸 Application Screenshots
 
