@@ -285,6 +285,9 @@ npm run dev
 npm run build
 
 ## 📁 Project Structure
+
+
+```text
 StudyPilot-AI/
 └── app/
     ├── public/
@@ -309,19 +312,19 @@ StudyPilot-AI/
     ├── package-lock.json
     ├── vite.config.ts
     └── README.md
-
+```
 
 ## 🔮 Future Improvements
 
 Potential future improvements include:
 
-Calendar integration
-Study reminders and notifications
-Adaptive study plans based on learner performance
-Personalized AI recommendations
-More advanced learning analytics
-Expanded achievement and badge system
-Cross-device learning synchronization
+-Calendar integration
+-Study reminders and notifications
+-Adaptive study plans based on learner performance
+-Personalized AI recommendations
+-More advanced learning analytics
+-Expanded achievement and badge system
+-Cross-device learning synchronization
 
 ## 👩‍💻 Author
 Ujwala R
