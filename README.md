@@ -1,32 +1,120 @@
-# React + TypeScript + Vite
+ 🚀 StudyPilot AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+ AI-Powered Personalized Learning Planner
 
-Currently, two official plugins are available:
+StudyPilot AI is a personalized learning platform that helps users turn their learning goals into structured and achievable study plans.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Users provide their learning goal, current skill level, target deadline, and available study time. The application then generates a personalized learning roadmap and allows users to track tasks, monitor progress, manage multiple learning plans, and view learning insights.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+🎯 Problem Statement
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Many learners know what they want to learn but struggle to create a realistic learning schedule and consistently track their progress.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+StudyPilot AI addresses this problem by combining AI-powered study-plan generation with task tracking, progress monitoring, gamification, and learning analytics in one application.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+
+💡 Solution
+
+StudyPilot AI transforms a learning goal into a structured learning journey.
+
+The application:
+
+1. Collects the learner's goal and preferences.
+2. Generates a personalized study plan using AI.
+3. Organizes the plan into milestones and daily tasks.
+4. Allows learners to mark tasks as completed.
+5. Calculates course progress automatically.
+6. Supports multiple study plans.
+7. Provides learning analytics and insights.
+8. Uses gamification elements such as XP and streaks to encourage consistency.
+
+ ✨ Key Features
+
+ 🤖 AI-Powered Study Planning
+
+Generates personalized learning plans based on:
+
+- Learning goal
+- Current skill level
+- Target deadline
+- Available daily study time
+
+ 🗺️ Personalized Learning Roadmap
+
+Breaks the learning journey into structured milestones and actionable tasks.
+
+ 📚 Multiple Study Plans
+
+Users can create and manage multiple learning plans instead of being limited to a single course.
+
+ ✅ Task-Level Progress Tracking
+
+Users can mark individual tasks as completed and monitor their progress throughout the course.
+
+ 📊 Learning Progress
+
+Course progress is calculated from completed tasks and displayed through visual progress indicators.
+
+ 🎮 Gamification
+
+The application includes:
+
+- XP
+- Learning streaks
+- Progress milestones
+- Achievements
+
+to make learning more engaging.
+
+ 📈 Learning Insights
+
+The analytics section provides metrics such as:
+
+- Plans created
+- Tasks completed
+- Average course progress
+- Current streak
+- Total XP
+- Most active subject
+- Learning activity
+
+ 🧭 User-Friendly Navigation
+
+The application provides clear navigation between:
+
+- Home
+- Dashboard
+- Current Plans
+- Insights
+
+ 📱 Responsive Interface
+
+The UI is designed to work across desktop and smaller screen sizes.
+
+
+
+ 🔄 How StudyPilot AI Works
+
+
+User enters learning goal
+          ↓
+Selects skill level
+          ↓
+Selects target deadline
+          ↓
+Selects available study time
+          ↓
+AI generates personalized plan
+          ↓
+Learning roadmap is created
+          ↓
+User completes daily tasks
+          ↓
+Progress is automatically updated
+          ↓
+XP and streaks are tracked
+          ↓
+Learning insights are generated
