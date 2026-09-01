@@ -98,7 +98,9 @@ The UI is designed to work across desktop and smaller screen sizes.
 
  🔄 How StudyPilot AI Works
 
+## 🔄 How StudyPilot AI Works
 
+```text
 User enters learning goal
           ↓
 Selects skill level
@@ -115,6 +117,9 @@ User completes daily tasks
           ↓
 Progress is automatically updated
           ↓
+XP and streaks are tracked
+          ↓
+Learning insights are generated
 XP and streaks are tracked
           ↓
 Learning insights are generated
