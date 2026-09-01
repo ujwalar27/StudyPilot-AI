@@ -120,31 +120,41 @@ Progress is automatically updated
 XP and streaks are tracked
           ↓
 Learning insights are generated
-
+```
 ---
 
 ## 🛠️ Tech Stack
-Frontend
-React
-TypeScript
-Vite
-CSS
-Backend
-Node.js
-Express.js
-REST API
-AI
-Google Gemini API
-Prompt Engineering
-Structured AI Responses
-Data & Authentication
-Firebase
-Firestore
-LocalStorage
-Development & Deployment
-Git
-GitHub
-Render
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+
+### AI
+
+- Google Gemini API
+- Prompt Engineering
+- Structured AI Responses
+
+### Data & Authentication
+
+- Firebase
+- Firestore
+- LocalStorage
+
+### Development & Deployment
+
+- Git
+- GitHub
+- Render
 
 ## 🏗️ Product Architecture
                          ┌──────────────────────┐
@@ -223,14 +233,24 @@ Convert plan and task activity into simple metrics that help learners understand
 
 
 ##  📸 Application Screenshots
+
 ## 🏠 Dashboard
+
 <img width="1854" height="894" alt="StudyPilot AI Dashboard" src="https://github.com/user-attachments/assets/ba4c5414-ec3b-41e5-b505-5dcd79899689" />
+
 ## 🗺️ AI-Generated Study Plan
-<img width="1349" height="848" alt="StudyPilot AI Study Plan" src="https://github.com/user-attachments/assets/c025758b-4b1f-48e5-8519-5d89b5afea16" /> <img width="1488" height="870" alt="StudyPilot AI Learning Roadmap" src="https://github.com/user-attachments/assets/4109f4ff-de80-43cc-b34f-914ed9ffd8ca" />
+
+<img width="1349" height="848" alt="StudyPilot AI Study Plan" src="https://github.com/user-attachments/assets/c025758b-4b1f-48e5-8519-5d89b5afea16" /> 
+<img width="1488" height="870" alt="StudyPilot AI Learning Roadmap" src="https://github.com/user-attachments/assets/4109f4ff-de80-43cc-b34f-914ed9ffd8ca" />
+
 ## 📚 Current Plans
+
 <img width="1426" height="869" alt="StudyPilot AI Current Plans" src="https://github.com/user-attachments/assets/232caa40-2b9c-462e-ba43-972a805cdd65" />
+
 ## 📈 Learning Insights
-<img width="1396" height="861" alt="StudyPilot AI Learning Insights" src="https://github.com/user-attachments/assets/b160d776-9ff5-4393-a206-1772de2d4e24" /> <img width="1544" height="789" alt="StudyPilot AI Analytics" src="https://github.com/user-attachments/assets/35c2c74a-c348-4166-9c98-e655690cf0ee" />
+
+<img width="1396" height="861" alt="StudyPilot AI Learning Insights" src="https://github.com/user-attachments/assets/b160d776-9ff5-4393-a206-1772de2d4e24" /> 
+<img width="1544" height="789" alt="StudyPilot AI Analytics" src="https://github.com/user-attachments/assets/35c2c74a-c348-4166-9c98-e655690cf0ee" />
 
 
 ## 🚀 Deployment
